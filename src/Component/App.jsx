@@ -1,47 +1,26 @@
-
 import { auth } from "../utils/firebase";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { adduser, removeuser } from "../utils/userslice";
-import Netflixmain from "./Netflixmain";
-
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-import Login from "./Login";
-import Browse from "./Browse";
+import { Outlet } from "react-router-dom";
 
-const appRouter = createBrowserRouter([
-    {
-      path: "/",
-      element: <Browse />,
-    },
-    {
-      path: "/login",
-      element: <Login />,
-    },
-    {
-      path: "/main",
-      element: <Netflixmain />,
-    },
-  ]);
+// App.jsx (or another root component) → Global application logic such as authentication listeners, theme initialization, etc.
+
 const App = () => {
   const dispatch = useDispatch();
-
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        const { displayName, email, uid } = user;
-        dispatch(adduser({ displayName: displayName, email: email, uid: uid }));
+        const { displayName, email, uid ,photoURL} = user;
+        dispatch(adduser({ displayName: displayName, email: email, uid: uid,photoURL:photoURL }));
       } else {
-        dispatch(removeuser());  
+        dispatch(removeuser());
       }
     });
   }, []);
-
   return (
-    <div>
-      <RouterProvider router={appRouter} />
-    </div>
+    <Outlet /> //react router replaces this outlet with the matched url route component and it get filled and app return that component.
   );
 };
 

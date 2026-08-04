@@ -4,15 +4,16 @@ import Header from "./Header";
 import validate from "../utils/validate";
 import signin from "../utils/signin";
 import signup from "../utils/signup";
-import {  updateProfile } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
+import { updateProfile } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { adduser } from "../utils/userslice";
+import { useNavigate } from "react-router-dom";
+ 
 
 const Login = () => {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
-  const dispatch =useDispatch();
   const [issignIN, setissignIn] = useState(true);
   const [validatemssg, setvalidatemssg] = useState(null);
   const Emailref = useRef(null);
@@ -28,33 +29,38 @@ const Login = () => {
     if (validateresult) return;
 
     if (!issignIN) {
-      
-      const data=await signup(
+      const data = await signup(
         Emailref.current.value,
         passwordref.current.value,
         setvalidatemssg,
       );
-      console.log(data);  
-    // ****Updating name***
+      console.log("signup-data-firstime-" + data);
+      // ****Updating name***
       updateProfile(auth.currentUser, {
         displayName: nameref.current.value,
-        photoURL: "https://avatars.githubusercontent.com/u/4813992?v=4",
+        photoURL: "https://avatars.githubusercontent.com/u/222603244?v=4",
       })
         .then(() => {
-          const {displayName,email,uid}=auth.currentUser;
-          dispatch(adduser({ displayName: displayName ,email: email, uid: uid}));
-          navigate("/main")
+          console.log("signup-updated-data-" + auth.currentUser);
+          const { displayName, email, uid,photoURL } = auth.currentUser;
+
+          dispatch(
+            adduser({ displayName: displayName, email: email, uid: uid ,photoURL:photoURL }),
+          );
+          console.log("store updated");
+          navigate("/main");
         })
         .catch((error) => {
-          console.log(error);
+          console.log("update error" + error);
         });
     }
     if (issignIN) {
-      const signInuser = await signin(
+       const datas=await signin(
         Emailref.current.value,
         passwordref.current.value,
       );
-      console.log(signInuser);
+      console.log(datas);
+      
       navigate("/main");
     }
   }
@@ -111,7 +117,7 @@ const Login = () => {
           }}
           className="bg-red-800 mt-3 cursor-pointer text-white placeholder-gray-400 border border-gray-500 rounded-lg px-4 py-3 outline-none focus:border-white w-full"
         >
-          {issignIN?"Sign In":"Sign Up"}
+          {issignIN ? "Sign In" : "Sign Up"}
         </button>
         <div
           className="mt-10 cursor-pointer text-white"
