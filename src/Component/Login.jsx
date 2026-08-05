@@ -8,12 +8,10 @@ import { updateProfile } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { adduser } from "../utils/userslice";
-import { useNavigate } from "react-router-dom";
  
 
 const Login = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const [issignIN, setissignIn] = useState(true);
   const [validatemssg, setvalidatemssg] = useState(null);
   const Emailref = useRef(null);
@@ -48,20 +46,18 @@ const Login = () => {
             adduser({ displayName: displayName, email: email, uid: uid ,photoURL:photoURL }),
           );
           console.log("store updated");
-          navigate("/main");
+          
         })
         .catch((error) => {
           console.log("update error" + error);
         });
     }
     if (issignIN) {
-       const datas=await signin(
+       await signin(
         Emailref.current.value,
         passwordref.current.value,
       );
-      console.log(datas);
       
-      navigate("/main");
     }
   }
 
@@ -69,7 +65,7 @@ const Login = () => {
     setissignIn(!issignIN);
   }
   return (
-    <div className="relative h-screen">
+    <div className="absolute top-0 left-0 right-0 h-screen">
       <img
         src={netflixbg}
         alt="netflixbg"

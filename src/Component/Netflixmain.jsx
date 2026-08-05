@@ -1,10 +1,15 @@
 import Header from "./Header";
-
+import useNowplayingmovies from "../Hooks/useNowplayingmovies";
+import Maincontainer from "./Maincontainer"
+import Secondarycontainer from "./Secondarycontainer"
 
 const Netflixmain = () => {
+  useNowplayingmovies();
   return (
     <div className="">
-      <Header></Header>
+      <Header />
+      <Maincontainer/>
+      <Secondarycontainer/>
     </div>
   );
 };
