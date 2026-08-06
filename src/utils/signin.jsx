@@ -2,7 +2,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "./firebase";
 //not a hook
 
-const signin = async(email, password)=>{
+const signin = async(email, password,setvalidatemssg)=>{
   return signin();
    async function signin() {
     try {
@@ -16,8 +16,9 @@ const signin = async(email, password)=>{
       
     } catch (error) {
       const errorCode = error.code;
-      const errorMessage = error.message;
-      return (errorCode + errorMessage);
+      console.log(errorCode);
+      // const errorMessage = error.message;
+      return setvalidatemssg("User Not Found.")
     }
   };
 };

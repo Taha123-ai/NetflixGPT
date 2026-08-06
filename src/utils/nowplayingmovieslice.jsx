@@ -29,8 +29,7 @@ const movieslice=createSlice({
             state.Nowplayingmovie=null,
             state.Trailer=null,
             state.toprated=null,
-            state.upcoming=null,
-            state.popular=null    
+            state.upcoming=null   
         }
     }
 })

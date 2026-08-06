@@ -41,4 +41,8 @@
     -data driven ui builded
     -some movie category added in movies slice in store
     -Store clears when Logout to avoid data leak.
-           
+    -Nav bar popup added.
+7.  Browse page builded
+    -With accordian
+    -store slice updated 
+    -cards embeded      
