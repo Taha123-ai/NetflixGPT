@@ -28,10 +28,17 @@
             -Titlecontainer
             -Videocontainer
         -Secondarycontainer
-6. Netflixmain page-features
+            -secondary main contianer
+                -listcontainer *n 
+                    -moviecardcontainer *n
+6. Netflixmain page-features-progresses
     -TMDB used and setted all movie in store as new slice
     -Title slice added by fetching video data from TMDB 
     -Trailer movie added in a movies slice
     -Title container builded
     -Video container builded
+    -secondary container builded
+    -data driven ui builded
+    -some movie category added in movies slice in store
+    -Store clears when Logout to avoid data leak.
            

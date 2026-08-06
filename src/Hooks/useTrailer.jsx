@@ -14,7 +14,6 @@ const useTrailer = (key) => {
     const trialer = data.results?.filter((data) => {
       return data.type === "Trailer" ? data : data[0];
     });
-    console.log(trialer);
     dispatch(addtrailer(trialer[0] || trialer));
   };
   useEffect(() => {

@@ -8,3 +8,6 @@ export const options = {
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkOTJkMzI3MzczYmMyODJmZThiZWE1OGY0ZTRlMzEyNCIsIm5iZiI6MTc4NTkxNjc1NS43NzMsInN1YiI6IjZhNzJlZDUzOTJhNWRlNmMyNjI5ZjU1MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7Uvqe-jfErfOGPI6UGibWnpMsM1kS0JgIdakbGy-q1E'
   }
 };
+
+export const Moviecard_CDN_URL ="https://image.tmdb.org/t/p/w500"
+export const movie_api="https://api.themoviedb.org/3/movie/"
