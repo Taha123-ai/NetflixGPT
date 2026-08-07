@@ -45,4 +45,6 @@
 7.  Browse page builded
     -With accordian
     -store slice updated 
-    -cards embeded      
+    -cards embeded   
+8. Multilanguagility feature builded
+    -browsepage multi languality done.
