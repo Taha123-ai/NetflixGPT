@@ -1,8 +1,9 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "./firebase";
+import loginlanguage from "./loginlanguage";
 //not a hook
 
-const signup = (email, password,setvalidatemssg) => {
+const signup = (email, password,setvalidatemssg,language) => {
   return signup();
    async function signup() {
     try {
@@ -16,7 +17,7 @@ const signup = (email, password,setvalidatemssg) => {
     } catch (error) {
       const errorCode = error.code;
       const errorMessage = error.message;
-      setvalidatemssg("User Already exist.")
+      setvalidatemssg(loginlanguage[language].signuperror)
       return errorCode+errorMessage;
     }
   };

@@ -1,0 +1,39 @@
+[33m62d2e89[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mclean-main[m[33m)[m refs/heads/clean-main@{0}: commit (initial): Multi luingal features added
+[33m62d2e89[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mclean-main[m[33m)[m HEAD@{0}: commit (initial): Multi luingal features added
+[33m74b7111[m[33m ([m[1;32mmain[m[33m)[m refs/heads/main@{0}: commit: updated language issue
+[33m74b7111[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: commit: updated language issue
+[33mface332[m refs/heads/main@{1}: commit: updated language
+[33mface332[m HEAD@{2}: commit: updated language
+[33m8bca6b5[m refs/heads/main@{2}: commit: -Fullapp finally multilingual done - with 6 different language.
+[33m8bca6b5[m HEAD@{3}: commit: -Fullapp finally multilingual done - with 6 different language.
+[33m0a96b5f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m refs/remotes/origin/main@{0}: update by push
+[33m0a96b5f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m refs/heads/main@{3}: commit: Browse page multi-languality embeded.
+[33m0a96b5f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{4}: commit: Browse page multi-languality embeded.
+[33mbd4ea31[m refs/remotes/origin/main@{1}: update by push
+[33mbd4ea31[m refs/heads/main@{4}: commit: Browse page done
+[33mbd4ea31[m HEAD@{5}: commit: Browse page done
+[33m947ae4a[m refs/remotes/origin/main@{2}: update by push
+[33m947ae4a[m refs/heads/main@{5}: commit: Netflix mainpage secondary container builded.
+[33m947ae4a[m HEAD@{6}: commit: Netflix mainpage secondary container builded.
+[33m52c700f[m refs/remotes/origin/main@{3}: update by push
+[33m52c700f[m refs/heads/main@{6}: commit: Got movie data by using TMDB api and made a new store of movies having two state movies and trailer.
+[33m52c700f[m HEAD@{7}: commit: Got movie data by using TMDB api and made a new store of movies having two state movies and trailer.
+[33m17e3bf3[m refs/remotes/origin/main@{4}: update by push
+[33m17e3bf3[m refs/heads/main@{7}: commit: *Bug solved -
+[33m17e3bf3[m HEAD@{8}: commit: *Bug solved -
+[33m884c2e7[m refs/remotes/origin/main@{5}: update by push
+[33m884c2e7[m refs/heads/main@{8}: commit: * **User Slice Redux Store**: Centralized state management tracking authenticated user details across the application.
+[33m884c2e7[m HEAD@{9}: commit: * **User Slice Redux Store**: Centralized state management tracking authenticated user details across the application.
+[33m56ffbc4[m refs/remotes/origin/HEAD@{0}: fetch
+[33m56ffbc4[m refs/remotes/origin/main@{6}: update by push
+[33m56ffbc4[m refs/heads/main@{9}: commit: add sign-in, sign-out, and login form pages
+[33m56ffbc4[m HEAD@{10}: commit: add sign-in, sign-out, and login form pages
+[33md1a6514[m refs/remotes/origin/main@{7}: update by push
+[33md1a6514[m refs/heads/main@{10}: Branch: renamed refs/heads/main to refs/heads/main
+[33md1a6514[m HEAD@{11}: Branch: renamed refs/heads/main to refs/heads/main
+[33md1a6514[m refs/heads/main@{11}: Branch: renamed refs/heads/main to refs/heads/main
+[33md1a6514[m HEAD@{13}: Branch: renamed refs/heads/main to refs/heads/main
+[33md1a6514[m refs/heads/main@{12}: Branch: renamed refs/heads/master to refs/heads/main
+[33md1a6514[m HEAD@{15}: Branch: renamed refs/heads/master to refs/heads/main
+[33md1a6514[m refs/heads/main@{13}: commit (initial): Initial commit
+[33md1a6514[m HEAD@{17}: commit (initial): Initial commit
