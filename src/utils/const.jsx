@@ -13,3 +13,11 @@ export const Moviecard_CDN_URL ="https://image.tmdb.org/t/p/w500"
 export const movie_api="https://api.themoviedb.org/3/movie/"
 export const signout_icon_link="https://i.pinimg.com/736x/91/86/1b/91861b749841221d52122f0c2933d8a6.jpg"
 
+export const lagn_support = [
+  { value:"English",Identifier:"English"},
+  { value:"Hindi",Identifier:"Hindi"},
+  { value:"Urdu",Identifier:"Urdu"},
+  { value:"Turkish",Identifier:"Turkish"},
+  { value:"Spanish",Identifier:"Spanish"},
+  { value:"Portuguese",Identifier:"Portuguese"},
+]

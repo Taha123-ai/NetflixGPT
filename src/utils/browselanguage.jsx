@@ -1,5 +1,5 @@
 const browselanguage = {
-  en: {
+  English: {
     headerbtn: "Sign In",
     infoh1: "Unlimited movies, shows, and more",
     infoh3: "Plans start at ₹149. Cancel anytime.",
@@ -95,60 +95,189 @@ const browselanguage = {
 
     movielisttitle: "ट्रेंडिंग",
   },
-  urdu: {
-      headerbtn: "سائن اِن",
-      infoh1: "لامحدود فلمیں، شوز اور بہت کچھ",
-      infoh3: "منصوبے ₹149 سے شروع ہوتے ہیں۔ کسی بھی وقت منسوخ کریں۔",
-      infop:
-        "دیکھنا شروع کرنے کے لیے تیار ہیں؟ اپنی رکنیت شروع کرنے کے لیے اپنا ای میل درج کریں۔",
-      trybtn: "30 دن ₹0 میں آزمائیں",
-      paymentdescription: "صرف نئے اراکین کے لیے۔ شرائط لاگو ہیں۔",
+  Urdu: {
+    headerbtn: "سائن اِن",
+    infoh1: "لامحدود فلمیں، شوز اور بہت کچھ",
+    infoh3: "منصوبے ₹149 سے شروع ہوتے ہیں۔ کسی بھی وقت منسوخ کریں۔",
+    infop:
+      "دیکھنا شروع کرنے کے لیے تیار ہیں؟ اپنی رکنیت شروع کرنے کے لیے اپنا ای میل درج کریں۔",
+    trybtn: "30 دن ₹0 میں آزمائیں",
+    paymentdescription: "صرف نئے اراکین کے لیے۔ شرائط لاگو ہیں۔",
 
-      browse_secboxtitle: "شامل ہونے کی مزید وجوہات",
+    browse_secboxtitle: "شامل ہونے کی مزید وجوہات",
 
-      card1top: "اپنے ٹی وی پر لطف اٹھائیں",
-      card1bottom:
-        "اسمارٹ ٹی وی، PlayStation، Xbox، Chromecast، Apple TV، Blu-ray پلیئرز اور دیگر ڈیوائسز پر دیکھیں۔",
+    card1top: "اپنے ٹی وی پر لطف اٹھائیں",
+    card1bottom:
+      "اسمارٹ ٹی وی، PlayStation، Xbox، Chromecast، Apple TV، Blu-ray پلیئرز اور دیگر ڈیوائسز پر دیکھیں۔",
 
-      card2top: "آف لائن دیکھنے کے لیے اپنے شوز ڈاؤن لوڈ کریں",
-      card2bottom:
-        "اپنے پسندیدہ شوز آسانی سے محفوظ کریں اور ہمیشہ دیکھنے کے لیے کچھ نہ کچھ موجود رکھیں۔",
+    card2top: "آف لائن دیکھنے کے لیے اپنے شوز ڈاؤن لوڈ کریں",
+    card2bottom:
+      "اپنے پسندیدہ شوز آسانی سے محفوظ کریں اور ہمیشہ دیکھنے کے لیے کچھ نہ کچھ موجود رکھیں۔",
 
-      card3top: "ہر جگہ دیکھیں",
-      card3bottom:
-        "اپنے فون، ٹیبلیٹ، لیپ ٹاپ اور ٹی وی پر لامحدود فلمیں اور ٹی وی شوز اسٹریم کریں۔",
+    card3top: "ہر جگہ دیکھیں",
+    card3bottom:
+      "اپنے فون، ٹیبلیٹ، لیپ ٹاپ اور ٹی وی پر لامحدود فلمیں اور ٹی وی شوز اسٹریم کریں۔",
 
-      card4top: "بچوں کے لیے پروفائلز بنائیں",
-      card4bottom:
-        "اپنے بچوں کو ان کے پسندیدہ کرداروں کے ساتھ مہم جوئی کی دنیا میں بھیجیں۔ ان کے لیے ایک محفوظ جگہ، جو آپ کی رکنیت کے ساتھ مفت شامل ہے۔",
+    card4top: "بچوں کے لیے پروفائلز بنائیں",
+    card4bottom:
+      "اپنے بچوں کو ان کے پسندیدہ کرداروں کے ساتھ مہم جوئی کی دنیا میں بھیجیں۔ ان کے لیے ایک محفوظ جگہ، جو آپ کی رکنیت کے ساتھ مفت شامل ہے۔",
 
-      queryheading: "اکثر پوچھے جانے والے سوالات",
+    queryheading: "اکثر پوچھے جانے والے سوالات",
 
-      query1top: "Netflix کیا ہے؟",
-      query1answer:
-        "Netflix ایک اسٹریمنگ سروس ہے جو ایوارڈ یافتہ ٹی وی شوز، فلمیں، اینیمی، دستاویزی فلمیں اور بہت کچھ پیش کرتی ہے۔ آپ اسے ہزاروں انٹرنیٹ سے منسلک ڈیوائسز پر دیکھ سکتے ہیں۔ جب چاہیں، جتنا چاہیں، بغیر کسی اشتہار کے ایک ہی کم ماہانہ قیمت پر دیکھیں۔ ہر ہفتے نئی فلمیں اور ٹی وی شوز شامل کیے جاتے ہیں، اس لیے دیکھنے کے لیے ہمیشہ کچھ نیا موجود ہوتا ہے۔",
+    query1top: "Netflix کیا ہے؟",
+    query1answer:
+      "Netflix ایک اسٹریمنگ سروس ہے جو ایوارڈ یافتہ ٹی وی شوز، فلمیں، اینیمی، دستاویزی فلمیں اور بہت کچھ پیش کرتی ہے۔ آپ اسے ہزاروں انٹرنیٹ سے منسلک ڈیوائسز پر دیکھ سکتے ہیں۔ جب چاہیں، جتنا چاہیں، بغیر کسی اشتہار کے ایک ہی کم ماہانہ قیمت پر دیکھیں۔ ہر ہفتے نئی فلمیں اور ٹی وی شوز شامل کیے جاتے ہیں، اس لیے دیکھنے کے لیے ہمیشہ کچھ نیا موجود ہوتا ہے۔",
 
-      query2top: "Netflix کی قیمت کتنی ہے؟",
-      query2answer:
-        "نئے اراکین Netflix کو 30 دن تک ₹0 میں آزما سکتے ہیں۔ مفت آزمائشی مدت ختم ہونے کے بعد، آپ کے منتخب کردہ پلان کے مطابق آپ کی رکنیت خود بخود معمول کی قیمت پر تجدید ہو جائے گی۔ منصوبے ₹149 سے ₹649 تک دستیاب ہیں۔ اپنے اسمارٹ فون، ٹیبلیٹ، اسمارٹ ٹی وی، لیپ ٹاپ یا اسٹریمنگ ڈیوائس پر Netflix دیکھیں۔ کوئی اضافی فیس نہیں۔ کسی بھی وقت منسوخ کریں۔",
+    query2top: "Netflix کی قیمت کتنی ہے؟",
+    query2answer:
+      "نئے اراکین Netflix کو 30 دن تک ₹0 میں آزما سکتے ہیں۔ مفت آزمائشی مدت ختم ہونے کے بعد، آپ کے منتخب کردہ پلان کے مطابق آپ کی رکنیت خود بخود معمول کی قیمت پر تجدید ہو جائے گی۔ منصوبے ₹149 سے ₹649 تک دستیاب ہیں۔ اپنے اسمارٹ فون، ٹیبلیٹ، اسمارٹ ٹی وی، لیپ ٹاپ یا اسٹریمنگ ڈیوائس پر Netflix دیکھیں۔ کوئی اضافی فیس نہیں۔ کسی بھی وقت منسوخ کریں۔",
 
-      query3top: "میں Netflix کہاں دیکھ سکتا ہوں؟",
-      query3answer:
-        "آپ Netflix کو کہیں بھی، کسی بھی وقت دیکھ سکتے ہیں۔ اپنے Netflix اکاؤنٹ سے سائن اِن کریں اور اپنے کمپیوٹر یا کسی بھی انٹرنیٹ سے منسلک ڈیوائس پر فوراً دیکھنا شروع کریں، جن میں اسمارٹ ٹی وی، اسمارٹ فون، ٹیبلیٹ، اسٹریمنگ میڈیا پلیئرز اور گیمنگ کنسولز شامل ہیں۔ آپ iOS یا Android ایپ کے ذریعے اپنے پسندیدہ شوز ڈاؤن لوڈ بھی کر سکتے ہیں تاکہ انٹرنیٹ کے بغیر سفر کے دوران بھی انہیں دیکھ سکیں۔ Netflix کو اپنے ساتھ ہر جگہ لے جائیں۔",
+    query3top: "میں Netflix کہاں دیکھ سکتا ہوں؟",
+    query3answer:
+      "آپ Netflix کو کہیں بھی، کسی بھی وقت دیکھ سکتے ہیں۔ اپنے Netflix اکاؤنٹ سے سائن اِن کریں اور اپنے کمپیوٹر یا کسی بھی انٹرنیٹ سے منسلک ڈیوائس پر فوراً دیکھنا شروع کریں، جن میں اسمارٹ ٹی وی، اسمارٹ فون، ٹیبلیٹ، اسٹریمنگ میڈیا پلیئرز اور گیمنگ کنسولز شامل ہیں۔ آپ iOS یا Android ایپ کے ذریعے اپنے پسندیدہ شوز ڈاؤن لوڈ بھی کر سکتے ہیں تاکہ انٹرنیٹ کے بغیر سفر کے دوران بھی انہیں دیکھ سکیں۔ Netflix کو اپنے ساتھ ہر جگہ لے جائیں۔",
 
-      query4top: "Netflix پر میں کیا دیکھ سکتا ہوں؟",
-      query4answer:
-        "Netflix پر فیچر فلموں، دستاویزی فلموں، ٹی وی شوز، اینیمی، ایوارڈ یافتہ Netflix Originals اور بہت کچھ کا وسیع مجموعہ موجود ہے۔ جب چاہیں، جتنا چاہیں دیکھیں۔",
+    query4top: "Netflix پر میں کیا دیکھ سکتا ہوں؟",
+    query4answer:
+      "Netflix پر فیچر فلموں، دستاویزی فلموں، ٹی وی شوز، اینیمی، ایوارڈ یافتہ Netflix Originals اور بہت کچھ کا وسیع مجموعہ موجود ہے۔ جب چاہیں، جتنا چاہیں دیکھیں۔",
 
-      query5top: "میں اپنی رکنیت کیسے منسوخ کروں؟",
-      query5answer:
-        "Netflix مکمل طور پر لچکدار ہے۔ آپ صرف دو کلکس میں اپنی رکنیت آن لائن منسوخ کر سکتے ہیں۔ کوئی منسوخی فیس نہیں—جب چاہیں اپنی رکنیت شروع کریں یا بند کریں۔",
+    query5top: "میں اپنی رکنیت کیسے منسوخ کروں؟",
+    query5answer:
+      "Netflix مکمل طور پر لچکدار ہے۔ آپ صرف دو کلکس میں اپنی رکنیت آن لائن منسوخ کر سکتے ہیں۔ کوئی منسوخی فیس نہیں—جب چاہیں اپنی رکنیت شروع کریں یا بند کریں۔",
 
-      query6top: "کیا Netflix بچوں کے لیے اچھا ہے؟",
-      query6answer:
-        "Netflix Kids کا تجربہ آپ کی رکنیت میں شامل ہے تاکہ والدین کو کنٹرول حاصل رہے جبکہ بچے اپنی الگ محفوظ جگہ میں خاندان کے لیے موزوں ٹی وی شوز اور فلموں سے لطف اندوز ہو سکیں۔ بچوں کی پروفائلز میں PIN سے محفوظ والدین کے کنٹرول شامل ہیں، جن کی مدد سے آپ عمر کی حد مقرر کر سکتے ہیں اور مخصوص عنوانات کو بلاک کر سکتے ہیں جنہیں آپ اپنے بچوں کو نہیں دکھانا چاہتے۔",
+    query6top: "کیا Netflix بچوں کے لیے اچھا ہے؟",
+    query6answer:
+      "Netflix Kids کا تجربہ آپ کی رکنیت میں شامل ہے تاکہ والدین کو کنٹرول حاصل رہے جبکہ بچے اپنی الگ محفوظ جگہ میں خاندان کے لیے موزوں ٹی وی شوز اور فلموں سے لطف اندوز ہو سکیں۔ بچوں کی پروفائلز میں PIN سے محفوظ والدین کے کنٹرول شامل ہیں، جن کی مدد سے آپ عمر کی حد مقرر کر سکتے ہیں اور مخصوص عنوانات کو بلاک کر سکتے ہیں جنہیں آپ اپنے بچوں کو نہیں دکھانا چاہتے۔",
 
-      movielisttitle: "ٹرینڈنگ",  
+    movielisttitle: "ٹرینڈنگ",
+  },
+
+  Turkish: {
+    headerbtn: "Giriş Yap",
+    infoh1: "Sınırsız film, dizi ve daha fazlası",
+    infoh3: "Planlar ₹149'dan başlar. İstediğiniz zaman iptal edin.",
+    infop:
+      "İzlemeye hazır mısınız? Üyeliğinizi başlatmak için e-posta adresinizi girin",
+    trybtn: "30 Gün ₹0'a Deneyin",
+    paymentdescription: "Yalnızca yeni üyeler için. Şartlar aşağıdadır.",
+    browse_secboxtitle: "Üye olmak için daha fazla neden",
+    card1top: "TV'nizde izleyin",
+    card1bottom:
+      "Akıllı TV'lerde, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılarda ve daha fazlasında izleyin.",
+    card2top: "Dizilerinizi çevrimdışı izlemek için indirin",
+    card2bottom:
+      "Favorilerinizi kolayca kaydedin ve her zaman izleyecek bir şeyiniz olsun.",
+    card3top: "Her yerde izleyin",
+    card3bottom:
+      "Telefonunuzda, tabletinizde, dizüstü bilgisayarınızda ve TV'nizde sınırsız film ve TV dizisi izleyin.",
+    card4top: "Çocuklar için profiller oluşturun",
+    card4bottom:
+      "Çocuklarınızı, yalnızca onlar için oluşturulmuş bir alanda en sevdikleri karakterlerle maceralara gönderin — üyeliğinize dahildir.",
+    queryheading: "Sıkça Sorulan Sorular",
+    query1top: "Netflix nedir?",
+    query1answer:
+      "Netflix, binlerce internete bağlı cihazda çok çeşitli ödüllü diziler, filmler, anime, belgeseller ve daha fazlasını sunan bir yayın hizmetidir. İstediğiniz kadar, istediğiniz zaman, tek bir reklam bile olmadan izleyebilirsiniz. Her hafta yeni diziler ve filmler eklenir!",
+    query2top: "Netflix'in ücreti ne kadar?",
+    query2answer:
+      "Yeni üyeler Netflix'i 30 gün boyunca ₹0 karşılığında deneyebilir. Ücretsiz deneme sona erdikten sonra planınız, seçtiğiniz plana bağlı olarak normal ücret üzerinden otomatik olarak yenilenir. Planlar ₹149 ile ₹649 arasında değişir. Netflix'i akıllı telefonunuzda, tabletinizde, Smart TV'nizde, dizüstü bilgisayarınızda veya yayın cihazınızda izleyebilirsiniz. Ek ücret yoktur. İstediğiniz zaman iptal edebilirsiniz.",
+    query3top: "Nerede izleyebilirim?",
+    query3answer:
+      "Her yerde, istediğiniz zaman izleyin. Netflix hesabınızla oturum açarak bilgisayarınızdan web üzerinden veya Netflix uygulamasını destekleyen internete bağlı herhangi bir cihazdan anında izleyebilirsiniz. Buna akıllı TV'ler, akıllı telefonlar, tabletler, yayın cihazları ve oyun konsolları dahildir. Favori dizilerinizi iOS veya Android uygulamasından da indirebilirsiniz.",
+    query4top: "Netflix'te neler izleyebilirim?",
+    query4answer:
+      "Netflix'te uzun metrajlı filmler, belgeseller, TV dizileri, anime, ödüllü Netflix Originals ve daha fazlasından oluşan geniş bir kütüphane bulunur. İstediğiniz kadar, istediğiniz zaman izleyin.",
+    query5top: "Nasıl iptal edebilirim?",
+    query5answer:
+      "Netflix esnektir. Hesabınızı çevrimiçi olarak sadece iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur — hesabınızı istediğiniz zaman başlatabilir veya durdurabilirsiniz.",
+    query6top: "Netflix çocuklar için uygun mu?",
+    query6answer:
+      "Netflix Çocuk deneyimi üyeliğinize dahildir. Çocuklar kendi alanlarında aile dostu dizilerin ve filmlerin keyfini çıkarırken ebeveynlere de kontrol imkânı sunar. Çocuk profilleri, izlenebilecek içeriklerin yaş derecesini sınırlamanıza ve çocuklarınızın görmesini istemediğiniz belirli içerikleri engellemenize olanak tanıyan PIN korumalı ebeveyn kontrolleri içerir.",
+    movielisttitle: "Trendler",
+  },
+
+  Spanish: {
+    headerbtn: "Iniciar sesión",
+    infoh1: "Películas, series y mucho más, sin límites",
+    infoh3: "Planes desde ₹149. Cancela cuando quieras.",
+    infop:
+      "¿Listo para ver? Introduce tu correo electrónico para comenzar tu membresía",
+    trybtn: "Prueba 30 días por ₹0",
+    paymentdescription: "Solo para nuevos miembros. Consulta los términos.",
+    browse_secboxtitle: "Más razones para unirte",
+    card1top: "Disfruta en tu TV",
+    card1bottom:
+      "Disfruta en Smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y mucho más.",
+    card2top: "Descarga tus series para verlas sin conexión",
+    card2bottom:
+      "Guarda tus favoritos fácilmente y siempre tendrás algo que ver.",
+    card3top: "Disfruta en cualquier lugar",
+    card3bottom:
+      "Disfruta de películas y series ilimitadas en tu teléfono, tableta, portátil y TV.",
+    card4top: "Crea perfiles para niños",
+    card4bottom:
+      "Deja que los niños vivan aventuras con sus personajes favoritos en un espacio creado especialmente para ellos, incluido en tu membresía.",
+    queryheading: "Preguntas frecuentes",
+    query1top: "¿Qué es Netflix?",
+    query1answer:
+      "Netflix es un servicio de streaming que ofrece una gran variedad de series, películas, anime, documentales premiados y mucho más en miles de dispositivos conectados a Internet. Puedes ver todo lo que quieras, cuando quieras, sin anuncios y por un único precio mensual. Siempre hay algo nuevo por descubrir, y cada semana se añaden nuevas series y películas.",
+    query2top: "¿Cuánto cuesta Netflix?",
+    query2answer:
+      "Los nuevos miembros pueden probar Netflix durante 30 días por ₹0. Cuando termine el periodo de prueba gratuito, tu plan se renovará automáticamente al precio habitual, según el plan que elijas. Los planes van de ₹149 a ₹649. Puedes disfrutar de Netflix en tu teléfono, tableta, Smart TV, portátil o dispositivo de streaming. Sin costes adicionales. Cancela cuando quieras.",
+    query3top: "¿Dónde puedo ver Netflix?",
+    query3answer:
+      "Disfruta de Netflix en cualquier lugar y en cualquier momento. Inicia sesión con tu cuenta de Netflix para ver contenido al instante desde tu ordenador o desde cualquier dispositivo conectado a Internet que tenga la aplicación de Netflix, incluidos Smart TV, teléfonos, tabletas, reproductores multimedia y consolas de videojuegos. También puedes descargar tus series favoritas con la aplicación para iOS o Android.",
+    query4top: "¿Qué puedo ver en Netflix?",
+    query4answer:
+      "Netflix cuenta con una amplia biblioteca de películas, documentales, series, anime, producciones originales de Netflix premiadas y mucho más. Disfruta de todo lo que quieras, cuando quieras.",
+    query5top: "¿Cómo cancelo?",
+    query5answer:
+      "Netflix es flexible. Puedes cancelar fácilmente tu cuenta online con solo dos clics. No hay cargos por cancelación. Puedes iniciar o cancelar tu cuenta cuando quieras.",
+    query6top: "¿Netflix es bueno para los niños?",
+    query6answer:
+      "La experiencia infantil de Netflix está incluida en tu membresía para que los padres tengan el control mientras los niños disfrutan de series y películas familiares en su propio espacio. Los perfiles infantiles incluyen controles parentales protegidos con PIN que permiten limitar la clasificación por edad del contenido que pueden ver y bloquear títulos específicos que no quieras que vean.",
+    movielisttitle: "Tendencias",
+  },
+
+  Portuguese: {
+    headerbtn: "Entrar",
+    infoh1: "Filmes, séries e muito mais, sem limites",
+    infoh3: "Planos a partir de ₹149. Cancele quando quiser.",
+    infop:
+      "Pronto para assistir? Digite seu e-mail para começar sua assinatura",
+    trybtn: "Experimente 30 dias por ₹0",
+    paymentdescription: "Somente para novos membros. Consulte os termos.",
+    browse_secboxtitle: "Mais motivos para participar",
+    card1top: "Assista na sua TV",
+    card1bottom:
+      "Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos Blu-ray e muito mais.",
+    card2top: "Baixe suas séries para assistir offline",
+    card2bottom:
+      "Salve seus favoritos facilmente e tenha sempre algo para assistir.",
+    card3top: "Assista em qualquer lugar",
+    card3bottom:
+      "Assista a filmes e séries ilimitados no seu celular, tablet, laptop e TV.",
+    card4top: "Crie perfis para crianças",
+    card4bottom:
+      "Deixe as crianças viverem aventuras com seus personagens favoritos em um espaço criado especialmente para elas, incluído na sua assinatura.",
+    queryheading: "Perguntas frequentes",
+    query1top: "O que é a Netflix?",
+    query1answer:
+      "A Netflix é um serviço de streaming que oferece uma grande variedade de séries, filmes, animes, documentários premiados e muito mais em milhares de dispositivos conectados à internet. Assista o quanto quiser, quando quiser, sem anúncios e por um único preço mensal. Sempre há algo novo para descobrir, e novos filmes e séries são adicionados toda semana.",
+    query2top: "Quanto custa a Netflix?",
+    query2answer:
+      "Novos membros podem experimentar a Netflix por 30 dias por ₹0. Após o término do período de teste gratuito, seu plano será renovado automaticamente pelo preço normal, dependendo do plano escolhido. Os planos variam de ₹149 a ₹649. Assista à Netflix no smartphone, tablet, Smart TV, laptop ou dispositivo de streaming. Sem custos extras. Cancele quando quiser.",
+    query3top: "Onde posso assistir?",
+    query3answer:
+      "Assista em qualquer lugar, a qualquer hora. Entre na sua conta Netflix para assistir instantaneamente pelo computador ou em qualquer dispositivo conectado à internet que ofereça o aplicativo da Netflix, incluindo Smart TVs, smartphones, tablets, dispositivos de streaming e consoles de jogos. Você também pode baixar suas séries favoritas pelo aplicativo para iOS ou Android.",
+    query4top: "O que posso assistir na Netflix?",
+    query4answer:
+      "A Netflix possui uma ampla biblioteca de filmes, documentários, séries, animes, produções originais premiadas da Netflix e muito mais. Assista o quanto quiser, quando quiser.",
+    query5top: "Como faço para cancelar?",
+    query5answer:
+      "A Netflix é flexível. Você pode cancelar sua conta online facilmente com apenas dois cliques. Não há taxas de cancelamento — comece ou encerre sua conta quando quiser.",
+    query6top: "A Netflix é boa para crianças?",
+    query6answer:
+      "A experiência infantil da Netflix está incluída na sua assinatura para dar aos pais controle enquanto as crianças aproveitam séries e filmes adequados para a família em seu próprio espaço. Os perfis infantis possuem controles parentais protegidos por PIN, que permitem restringir a classificação etária do conteúdo que as crianças podem assistir e bloquear títulos específicos que você não quer que elas vejam.",
+    movielisttitle: "Em alta",
   },
 };
 export default browselanguage;

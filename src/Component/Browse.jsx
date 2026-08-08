@@ -33,9 +33,9 @@ const Browse = () => {
   };
   return (
     <div>
-      <Header />
+      <Header val={language} />
       <button
-        className="px-3 pb-1 rounded-md text-white font-bold bg-red-600 fixed z-10 cursor-pointer right-8 top-6.25"
+        className="w-24 h-8 px-2 rounded-md text-white font-bold bg-red-600 fixed z-10 cursor-pointer right-8 top-6 flex items-center justify-center whitespace-nowrap overflow-hidden"
         onClick={navigateto}
       >
         {browselanguage[language].headerbtn}

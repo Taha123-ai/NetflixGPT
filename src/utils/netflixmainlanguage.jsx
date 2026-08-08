@@ -11,6 +11,8 @@ const Netflixmainlanguage = {
     signoutbtn: "Sign Out",
     playbtn: "Play",
     moreinfo: "More Info",
+    Searchgptbtn:"GPT",
+    Searchhomebtn:"Home"
   },
   Hindi: {
     movielist1: "अभी चल रही फ़िल्में",
