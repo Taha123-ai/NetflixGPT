@@ -33,9 +33,9 @@ const Browse = () => {
   };
   return (
     <div>
-      <Header val={language}/>
+      <Header />
       <button
-        className="px-4 pt-1 pb-2 box-border min-w-24 rounded-md text-white bg-red-600 fixed z-10 cursor-pointer right-8 top-5 whitespace-nowrap"
+        className="px-3 pb-1 rounded-md text-white font-bold bg-red-600 fixed z-10 cursor-pointer right-8 top-6.25"
         onClick={navigateto}
       >
         {browselanguage[language].headerbtn}
@@ -59,7 +59,7 @@ const Browse = () => {
             placeholder="Email address"
             className="py-4 pl-3 pr-15 rounded-md border border- bg-black/50 "
           ></input>
-          <button className="px-10 py-3 max-h-14 box-border  rounded-md bg-red-600 font-bold text-2xl cursor-pointer">
+          <button className="px-10 py-3  rounded-md bg-red-600 font-bold text-2xl cursor-pointer">
             {browselanguage[language].trybtn}
           </button>
         </div>

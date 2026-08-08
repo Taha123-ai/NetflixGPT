@@ -48,4 +48,3 @@
     -cards embeded   
 8. Multilanguagility feature builded
     -browsepage multi languality done.
-    -Fullapp finally multilingual done - with 6 different language.

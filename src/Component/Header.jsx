@@ -1,12 +1,11 @@
 import { useRef, useState } from "react";
-import { Lang_support, netflixlogo, signout_icon_link } from "../utils/const";
+import { netflixlogo, signout_icon_link } from "../utils/const";
 import { auth } from "../utils/firebase";
 import { signOut } from "firebase/auth";
 import { useDispatch, useSelector } from "react-redux";
 import { addlang } from "../utils/configlangslice";
-import Netflixmainlanguage from "../utils/netflixmainlanguage";
 
-const Header = ({ val }) => {
+const Header = () => {
   const [ispops, setispops] = useState(false);
   const dispatch = useDispatch();
   const Langref = useRef(null);
@@ -31,18 +30,13 @@ const Header = ({ val }) => {
       <img src={netflixlogo} alt="netflixlogo" className="w-35 ml-2"></img>
       <div className="*:text-white font-medium mr-8 flex">
         <select
-          className="pl-2  py-1 border border-white rounded-s bg-transparent mx-6 *:bg-black"
+          className="px-5  border border-white rounded-s bg-transparent mx-3 *:bg-black"
           onChange={handlelangchange}
           ref={Langref}
-          value={val}
         >
-          {Lang_support.map((options) => {
-            return (
-              <option value={options.name} key={options.identifier}>
-                {options.name}
-              </option>
-            );
-          })}
+          <option value="en">English</option>
+          <option value="Hindi">Hindi</option>
+          <option value="urdu">Urdu</option>
         </select>
         {user && (
           <div>
@@ -59,26 +53,26 @@ const Header = ({ val }) => {
               {ispops && (
                 <div className="absolute w-40 right-2 bg-neutral-700 rounded-md border border-gray-700 shadow-xl overflow-hidden z-20">
                   <div className="px-4 py-2 cursor-pointer transition-colors">
-                    {Netflixmainlanguage[val].profile}
+                    Manage Profiles
                   </div>
 
                   <div className="px-4 py-2  cursor-pointer transition-colors">
-                    {Netflixmainlanguage[val].list}
+                    My List
                   </div>
 
                   <div className="px-4 py-2 cursor-pointer transition-colors">
-                    {Netflixmainlanguage[val].Notification}
+                    Notifications
                   </div>
 
                   <div className="px-4 py-2  cursor-pointer transition-colors">
-                    {Netflixmainlanguage[val].Account}
+                    Account
                   </div>
 
                   <div
                     onClick={handlesignout}
                     className="px-4 py-2 border-t border-gray-700 text-red-600 text-lg hover:bg-neutral-600 cursor-pointer transition-colors"
                   >
-                    {Netflixmainlanguage[val].signoutbtn}
+                    Sign Out
                   </div>
                 </div>
               )}
