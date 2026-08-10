@@ -17,7 +17,7 @@ const signin = async(email, password,setvalidatemssg,language)=>{
       
     } catch (error) {
       const errorCode = error.code;
-      console.log(errorCode);
+      (errorCode);
       // const errorMessage = error.message;
       return setvalidatemssg(loginlanguage[language].signinerror)
     }

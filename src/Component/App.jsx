@@ -5,6 +5,7 @@ import { adduser, removeuser } from "../utils/userslice";
 import { onAuthStateChanged } from "firebase/auth";
 import { Outlet, useNavigate } from "react-router-dom";
 import { removedata } from "../utils/nowplayingmovieslice";
+import { removegptsliceitem} from "../utils/gptslice";
 
 // App.jsx (or another root component) → Global application logic such as authentication listeners, theme initialization, etc.
 
@@ -20,6 +21,8 @@ const App = () => {
       } else {
         dispatch(removeuser());
         dispatch(removedata());
+        dispatch(removegptsliceitem());
+        dispatch(removegptsliceitem());
         navigate("/");
       }
     });

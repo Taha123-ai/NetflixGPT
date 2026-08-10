@@ -29,13 +29,12 @@ const Login = () => {
     if (validateresult) return;
 
     if (!issignIN) {
-      const data = await signup(
+      await signup(
         Emailref.current.value,
         passwordref.current.value,
         setvalidatemssg,
         language
       );
-      console.log("signup-data-firstime-" + data);
       // ****Updating name***
       updateProfile(auth.currentUser, {
         displayName: nameref.current.value,

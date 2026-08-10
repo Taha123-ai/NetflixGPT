@@ -7,6 +7,9 @@ import Browse from "./Component/Browse";
 import { Provider } from "react-redux";
 import store from "./utils/store";
 import App from "./Component/App";
+import Gptsearch from "./Component/Gptsearch";
+import Moviedetailscard from "./Component/Moviedetailscard";
+import Chatgptdetailcard from "./Component/Chatgptdetailcard";
 
 const appRouter = createBrowserRouter([
   {
@@ -24,6 +27,22 @@ const appRouter = createBrowserRouter([
       {
         path: "main",
         element: <Netflixmain />,
+        children:[
+          {
+            path:":movieid",
+            element:<Moviedetailscard />
+          }
+        ]
+      },
+      {
+        path: "gptsearch",
+        element: <Gptsearch />,
+        children:[
+          {
+            path:":movieid",//nested dynamic url
+            element:<Chatgptdetailcard />
+          },
+        ]
       },
     ],
   },

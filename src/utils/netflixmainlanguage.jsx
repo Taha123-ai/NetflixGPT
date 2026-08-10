@@ -11,8 +11,10 @@ const Netflixmainlanguage = {
     signoutbtn: "Sign Out",
     playbtn: "Play",
     moreinfo: "More Info",
-    Searchgptbtn:"GPT",
-    Searchhomebtn:"Home"
+    Searchgptbtn: "GPT",
+    Searchhomebtn: "Home",
+    searchgptheader:"Search",
+    gptpara:"Ask for movies, shows, genres or recommendations.",
   },
   Hindi: {
     movielist1: "अभी चल रही फ़िल्में",
@@ -26,6 +28,10 @@ const Netflixmainlanguage = {
     signoutbtn: "साइन आउट",
     playbtn: "चलाएँ",
     moreinfo: "और जानकारी",
+    Searchgptbtn: "GPT",
+    Searchhomebtn: "होम",
+    searchgptheader: "खोजें", 
+    gptpara: "फ़िल्मों, शो, शैलियों या सुझावों के बारे में पूछें।",
   },
 
   Urdu: {
@@ -40,6 +46,10 @@ const Netflixmainlanguage = {
     signoutbtn: "سائن آؤٹ",
     playbtn: "چلائیں",
     moreinfo: "مزید معلومات",
+    Searchgptbtn: "GPT",
+    Searchhomebtn: "ہوم",
+    searchgptheader: "تلاش کریں", 
+    gptpara: "فلموں، شوز، انواع یا تجاویز کے بارے میں پوچھیں۔",
   },
 
   Turkish: {
@@ -54,6 +64,10 @@ const Netflixmainlanguage = {
     signoutbtn: "Çıkış Yap",
     playbtn: "Oynat",
     moreinfo: "Daha Fazla Bilgi",
+    Searchgptbtn: "GPT",
+    Searchhomebtn: "Ana Sayfa",
+    searchgptheader: "Ara", 
+    gptpara: "Filmler, diziler, türler veya öneriler hakkında sorun.",
   },
 
   Spanish: {
@@ -68,6 +82,10 @@ const Netflixmainlanguage = {
     playbtn: "Reproducir",
     moreinfo: "Más información",
     signoutbtn: "Cerrar sesión",
+    Searchgptbtn: "GPT",
+    Searchhomebtn: "Inicio",
+    searchgptheader: "Buscar",
+     gptpara: "Pregunta por películas, series, géneros o recomendaciones.",
   },
 
   Portuguese: {
@@ -82,6 +100,10 @@ const Netflixmainlanguage = {
     signoutbtn: "Sair",
     playbtn: "Reproduzir",
     moreinfo: "Mais informações",
+    Searchgptbtn: "GPT",
+    Searchhomebtn: "Início",
+    searchgptheader: "Pesquisar",
+     gptpara: "Pergunte sobre filmes, séries, gêneros ou recomendações.",
   },
 };
 export default Netflixmainlanguage;

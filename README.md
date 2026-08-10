@@ -48,3 +48,10 @@
     -cards embeded   
 8. Multilanguagility feature builded
     -browsepage multi languality done.
+9. Attached gemini api
+        -built gptpage
+        -connect with gpt api
+        -data send to tmdb api
+        -tmdb suggest movie
+        -renders that movie on screen
+        -memoization done for heavy traffic
