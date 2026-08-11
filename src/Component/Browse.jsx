@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import { netflixbg } from "../utils/const";
-import usePopularmovies from "../Hooks/usepopularmovies";
+import usePopularmovies from "../Hooks/usePopularmovies";
 import { useSelector } from "react-redux";
 import Movielist from "./Movielist";
 import { useState } from "react";
