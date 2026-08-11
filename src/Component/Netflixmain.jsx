@@ -3,7 +3,7 @@ import useNowplayingmovies from "../Hooks/useNowplayingmovies";
 import Maincontainer from "./Maincontainer";
 import Secondarycontainer from "./Secondarycontainer";
 import useTopratedmovies from "../Hooks/useTopratedmovies";
-import useUpcomingmovie from "../Hooks/useupcomingmovie";
+import useUpcomingmovie from "../Hooks/useUpcomingmovie";
 import { useDispatch, useSelector } from "react-redux";
 import usePopularmovies from "../Hooks/usePopularmovies";
 import { removegptsliceitem, setgptdata } from "../utils/gptslice";
