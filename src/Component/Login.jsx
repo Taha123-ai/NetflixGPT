@@ -9,7 +9,6 @@ import { auth } from "../utils/firebase";
 import { useDispatch, useSelector } from "react-redux";
 import { adduser } from "../utils/userslice";
 import loginlanguage from "../utils/loginlanguage";
- 
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -33,7 +32,7 @@ const Login = () => {
         Emailref.current.value,
         passwordref.current.value,
         setvalidatemssg,
-        language
+        language,
       );
       // ****Updating name***
       updateProfile(auth.currentUser, {
@@ -41,26 +40,28 @@ const Login = () => {
         photoURL: "https://avatars.githubusercontent.com/u/222603244?v=4",
       })
         .then(() => {
-          const { displayName, email, uid,photoURL } = auth.currentUser;
+          const { displayName, email, uid, photoURL } = auth.currentUser;
 
           dispatch(
-            adduser({ displayName: displayName, email: email, uid: uid ,photoURL:photoURL }),
+            adduser({
+              displayName: displayName,
+              email: email,
+              uid: uid,
+              photoURL: photoURL,
+            }),
           );
-          
-          
         })
         .catch((error) => {
           console.log("update error" + error);
         });
     }
     if (issignIN) {
-       await signin(
+      await signin(
         Emailref.current.value,
         passwordref.current.value,
         setvalidatemssg,
-        language
-      );  
-      
+        language,
+      );
     }
   }
 
@@ -76,51 +77,117 @@ const Login = () => {
         className="absolute inset object-cover h-full w-full"
       ></img>
       <div className="absolute inset h-full w-full bg-black/70"></div>
-      <Header val={language}/>
-      <form className="relative z-10 bg-black/50  flex flex-col *: w-[28%] mx-auto mt-33 px-6 pt-10 pb-15 rounded-2xl">
-        <div className="font-bold text-3xl text-white">
+      <Header val={language} />
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          fetchinfo();
+        }}
+        className="
+    relative z-10
+    w-[calc(100%-2rem)]
+    max-w-md
+    mx-auto
+    mt-90 sm:mt-90 md:mt-36
+    p-6 sm:p-8 md:p-10
+    bg-black/50
+    rounded-2xl
+    flex flex-col
+  "
+      >
+        <div className="font-bold text-2xl sm:text-3xl text-white">
           {issignIN ? get.loginsignInbtn : get.loginsignupbtn}
         </div>
+
         {!issignIN && (
           <input
             ref={nameref}
-            type="email"
+            type="text"
             placeholder={get.nameplaceholder}
-            className="bg-gray-900/70 mt-8 text-white placeholder-gray-400 border border-gray-500 rounded-lg px-4 py-3 outline-none focus:border-white w-full transition-all duration-300"
-          ></input>
+            className="
+        w-full
+        mt-8
+        bg-gray-900/70
+        text-white
+        placeholder-gray-400
+        border border-gray-500
+        rounded-lg
+        px-4 py-3
+        md:py-4
+        outline-none
+        focus:border-white
+        transition-all duration-300
+      "
+          />
         )}
+
         <input
           ref={Emailref}
           type="email"
           placeholder={get.emailplaceholder}
-          className="bg-gray-900/70 mt-4 text-white placeholder-gray-400 border border-gray-500 rounded-lg px-4 py-3 outline-none focus:border-white w-full"
-        ></input>
+          className="
+      w-full
+      mt-4
+      bg-gray-900/70
+      text-white
+      placeholder-gray-400
+      border border-gray-500
+      rounded-lg
+      px-4 py-3
+      md:py-4
+      outline-none
+      focus:border-white
+    "
+        />
+
         <input
           ref={passwordref}
           type="password"
           placeholder={get.passwordplaceholder}
-          className="bg-gray-900/70 mt-4 text-white placeholder-gray-400 border border-gray-500 rounded-lg px-4 py-3 outline-none focus:border-white w-full"
-        ></input>
-        <p className="text-red-500 text-sm mt-4 ">{validatemssg}</p>
+          className="
+      w-full
+      mt-4
+      bg-gray-900/70
+      text-white
+      placeholder-gray-400
+      border border-gray-500
+      rounded-lg
+      px-4 py-3
+      md:py-4
+      outline-none
+      focus:border-white
+    "
+        />
+
+        <p className="text-red-500 text-sm mt-4 min-h-5">{validatemssg}</p>
+
         <button
-          onSubmit={(e) => {
-            e.preventDefault();
-          }}
-          onClick={(e) => {
-            e.preventDefault();
-            fetchinfo();
-          }}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              fetchinfo();
-            }
-          }}
-          className="bg-red-800 mt-3 cursor-pointer text-white placeholder-gray-400 border border-gray-500 rounded-lg px-4 py-3 outline-none focus:border-white w-full"
+          type="submit"
+          className="
+      w-full
+      mt-3
+      cursor-pointer
+      bg-red-800
+      hover:bg-red-700
+      text-white
+      border border-gray-500
+      rounded-lg
+      px-4 py-3
+      outline-none
+      transition-colors duration-200
+    "
         >
           {issignIN ? get.loginsignInbtn : get.loginsignupbtn}
         </button>
+
         <div
-          className="mt-10 cursor-pointer text-white"
+          className="
+      mt-8
+      text-sm sm:text-base
+      cursor-pointer
+      text-white
+      hover:underline
+    "
           onClick={toggleissignIn}
         >
           {issignIN ? (

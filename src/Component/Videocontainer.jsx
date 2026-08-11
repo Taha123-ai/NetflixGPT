@@ -7,14 +7,9 @@ const Videocontainer = ({ id }) => {
     return store?.movies?.Trailer?.key;
   });
   return (
-    <div className=" w-full h-screen overflow-hidden">
+    <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-screen overflow-hidden">
       <iframe
-        className="w-full h-full scale-135 "
-        // src={
-        //   "https://www.youtube.com/embed/" +
-        //   key +
-        //   "?si=OMU73R3aNK9ADacy?&autoplay=1&mute=1"
-        // }
+        className="absolute top-1/2 left-1/2 w-[177.78vh] h-[56.25vw] min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 scale-[1.15] sm:scale-[1.25] md:scale-[1.35]"
         src={
           "https://www.youtube.com/embed/" +
           key +
@@ -24,7 +19,7 @@ const Videocontainer = ({ id }) => {
         title="YouTube video player"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
-      ></iframe>
+      />
     </div>
   );
 };

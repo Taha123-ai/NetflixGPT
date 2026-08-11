@@ -6,7 +6,7 @@ const Moviecard = ({  movies, posterpath ,id }) => {
   return (
     <div>
       <div 
-      className="w-64 h-40 mr-4 p-0.5 rounded-lg  cursor-pointer hover:bg-red-500 overflow-hidden"
+      className="md:w-64 sm:w-50 w-40 md:h-40 sm:h-30 h-25 mr-4 p-0.5 rounded-lg  cursor-pointer hover:bg-red-500 overflow-hidden"
       onClick={()=>navigate(`${id}`)}>
         <img
           alt={movies.title + "poster"}

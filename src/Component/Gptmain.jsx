@@ -144,7 +144,7 @@ const Gptmain = () => {
           </div>
         </>
       ) : (
-        <div className="mx-50 mt-20 relative z-8 ">
+        <div className="md:mx-50 sm:mx-15 mx-10 sm:mt-20 md:mt-20 mt-30  relative z-8 ">
           {Tmdbmovies?.map((tmdbmovie, index) => (
             <Movielist
               Title={Title[index]}

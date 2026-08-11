@@ -55,3 +55,4 @@
         -tmdb suggest movie
         -renders that movie on screen
         -memoization done for heavy traffic
+10. Responsiveness completed!
